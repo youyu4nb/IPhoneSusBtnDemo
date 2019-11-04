@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0907AD14235EDA9F00072E48 /* WeatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907AD12235EDA9F00072E48 /* WeatherViewController.m */; };
+		0907AD15235EDA9F00072E48 /* WeatherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0907AD13235EDA9F00072E48 /* WeatherViewController.xib */; };
+		0907AD1A235EDE8B00072E48 /* FutureWeatherTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907AD18235EDE8B00072E48 /* FutureWeatherTableViewCell.m */; };
+		0907AD1B235EDE8B00072E48 /* FutureWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0907AD19235EDE8B00072E48 /* FutureWeatherTableViewCell.xib */; };
+		0907AD1E235EDF8600072E48 /* WeatherData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907AD1D235EDF8600072E48 /* WeatherData.m */; };
+		0907AD22235F0C0000072E48 /* ExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907AD20235F0C0000072E48 /* ExpressViewController.m */; };
+		0907AD23235F0C0000072E48 /* ExpressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0907AD21235F0C0000072E48 /* ExpressViewController.xib */; };
+		0907AD27235F0C1100072E48 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907AD25235F0C1100072E48 /* ScanViewController.m */; };
+		0907AD2C235F0C1E00072E48 /* LocateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0907AD2A235F0C1E00072E48 /* LocateViewController.m */; };
+		0926382A235FEAA9000E1AE9 /* libPods-IPhoneSusBtnDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09263829235FEAA9000E1AE9 /* libPods-IPhoneSusBtnDemo.a */; };
+		0926382D23604291000E1AE9 /* ExpressData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926382C23604291000E1AE9 /* ExpressData.m */; };
+		0926383123604503000E1AE9 /* ExpressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0926382F23604503000E1AE9 /* ExpressTableViewCell.m */; };
+		0926383223604503000E1AE9 /* ExpressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0926383023604503000E1AE9 /* ExpressTableViewCell.xib */; };
+		0998DD532361AEEA00C0412B /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0998DD512361AEEA00C0412B /* OtherViewController.m */; };
+		0998DD542361AEEA00C0412B /* OtherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0998DD522361AEEA00C0412B /* OtherViewController.xib */; };
+		09A51356235D870100DFF908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A51355235D870100DFF908 /* AppDelegate.m */; };
+		09A5135E235D870200DFF908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A5135D235D870200DFF908 /* Assets.xcassets */; };
+		09A51361235D870200DFF908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A5135F235D870200DFF908 /* LaunchScreen.storyboard */; };
+		09A51364235D870200DFF908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A51363235D870200DFF908 /* main.m */; };
+		09A5136E235D870200DFF908 /* IPhoneSusBtnDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A5136D235D870200DFF908 /* IPhoneSusBtnDemoTests.m */; };
+		09A51379235D870300DFF908 /* IPhoneSusBtnDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A51378235D870300DFF908 /* IPhoneSusBtnDemoUITests.m */; };
+		09A51388235D8D1400DFF908 /* ButtonMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A51387235D8D1400DFF908 /* ButtonMenu.m */; };
+		09A51391235D96D700DFF908 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A5138F235D96D700DFF908 /* ViewController.m */; };
+		09A51392235D96D700DFF908 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A51390235D96D700DFF908 /* ViewController.xib */; };
+		4FAE881DA4E731A23FABC732 /* libPods-IPhoneSusBtnDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C175EC919F9E4AFE6BE27CD9 /* libPods-IPhoneSusBtnDemoTests.a */; };
+		833E929B4372BC7CC6EA8F04 /* libPods-IPhoneSusBtnDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1187DDB2A0FC9824CBBF1E29 /* libPods-IPhoneSusBtnDemoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09A5136A235D870200DFF908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A51349235D870100DFF908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A51350235D870100DFF908;
+			remoteInfo = IPhoneSusBtnDemo;
+		};
+		09A51375235D870200DFF908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09A51349235D870100DFF908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09A51350235D870100DFF908;
+			remoteInfo = IPhoneSusBtnDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0907AD11235EDA9F00072E48 /* WeatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherViewController.h; sourceTree = "<group>"; };
+		0907AD12235EDA9F00072E48 /* WeatherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherViewController.m; sourceTree = "<group>"; };
+		0907AD13235EDA9F00072E48 /* WeatherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherViewController.xib; sourceTree = "<group>"; };
+		0907AD17235EDE8B00072E48 /* FutureWeatherTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FutureWeatherTableViewCell.h; sourceTree = "<group>"; };
+		0907AD18235EDE8B00072E48 /* FutureWeatherTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureWeatherTableViewCell.m; sourceTree = "<group>"; };
+		0907AD19235EDE8B00072E48 /* FutureWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureWeatherTableViewCell.xib; sourceTree = "<group>"; };
+		0907AD1C235EDF8600072E48 /* WeatherData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherData.h; sourceTree = "<group>"; };
+		0907AD1D235EDF8600072E48 /* WeatherData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherData.m; sourceTree = "<group>"; };
+		0907AD1F235F0C0000072E48 /* ExpressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressViewController.h; sourceTree = "<group>"; };
+		0907AD20235F0C0000072E48 /* ExpressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressViewController.m; sourceTree = "<group>"; };
+		0907AD21235F0C0000072E48 /* ExpressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpressViewController.xib; sourceTree = "<group>"; };
+		0907AD24235F0C1100072E48 /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		0907AD25235F0C1100072E48 /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		0907AD29235F0C1E00072E48 /* LocateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocateViewController.h; sourceTree = "<group>"; };
+		0907AD2A235F0C1E00072E48 /* LocateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocateViewController.m; sourceTree = "<group>"; };
+		09263829235FEAA9000E1AE9 /* libPods-IPhoneSusBtnDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-IPhoneSusBtnDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0926382B23604291000E1AE9 /* ExpressData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressData.h; sourceTree = "<group>"; };
+		0926382C23604291000E1AE9 /* ExpressData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressData.m; sourceTree = "<group>"; };
+		0926382E23604503000E1AE9 /* ExpressTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExpressTableViewCell.h; sourceTree = "<group>"; };
+		0926382F23604503000E1AE9 /* ExpressTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressTableViewCell.m; sourceTree = "<group>"; };
+		0926383023604503000E1AE9 /* ExpressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpressTableViewCell.xib; sourceTree = "<group>"; };
+		0998DD502361AEEA00C0412B /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		0998DD512361AEEA00C0412B /* OtherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		0998DD522361AEEA00C0412B /* OtherViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherViewController.xib; sourceTree = "<group>"; };
+		09A51351235D870100DFF908 /* IPhoneSusBtnDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPhoneSusBtnDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A51354235D870100DFF908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		09A51355235D870100DFF908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		09A5135D235D870200DFF908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09A51360235D870200DFF908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09A51362235D870200DFF908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A51363235D870200DFF908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09A51369235D870200DFF908 /* IPhoneSusBtnDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPhoneSusBtnDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A5136D235D870200DFF908 /* IPhoneSusBtnDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneSusBtnDemoTests.m; sourceTree = "<group>"; };
+		09A5136F235D870200DFF908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A51374235D870200DFF908 /* IPhoneSusBtnDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPhoneSusBtnDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A51378235D870300DFF908 /* IPhoneSusBtnDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneSusBtnDemoUITests.m; sourceTree = "<group>"; };
+		09A5137A235D870300DFF908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A51386235D8D1400DFF908 /* ButtonMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonMenu.h; sourceTree = "<group>"; };
+		09A51387235D8D1400DFF908 /* ButtonMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonMenu.m; sourceTree = "<group>"; };
+		09A5138E235D96D700DFF908 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		09A5138F235D96D700DFF908 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		09A51390235D96D700DFF908 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		09B37BF0236FC314009022EA /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		09B37BF1236FC32C009022EA /* RequestUrlString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestUrlString.h; sourceTree = "<group>"; };
+		1187DDB2A0FC9824CBBF1E29 /* libPods-IPhoneSusBtnDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPhoneSusBtnDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFF2A5F7328A3A0653DE9DF /* Pods-IPhoneSusBtnDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPhoneSusBtnDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPhoneSusBtnDemo/Pods-IPhoneSusBtnDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3D2A10C1706A41371BFA3DCE /* libPods-IPhoneSusBtnDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPhoneSusBtnDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8780A81EBBBD25C7A04AF010 /* Pods-IPhoneSusBtnDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPhoneSusBtnDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPhoneSusBtnDemoTests/Pods-IPhoneSusBtnDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		87C6F9FC00C6DF20C867D27B /* Pods-IPhoneSusBtnDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPhoneSusBtnDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IPhoneSusBtnDemoUITests/Pods-IPhoneSusBtnDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AB027C43807122E0D97FA2E /* Pods-IPhoneSusBtnDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPhoneSusBtnDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPhoneSusBtnDemoTests/Pods-IPhoneSusBtnDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C175EC919F9E4AFE6BE27CD9 /* libPods-IPhoneSusBtnDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IPhoneSusBtnDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC76AEC55CF382E192AFD9C /* Pods-IPhoneSusBtnDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPhoneSusBtnDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPhoneSusBtnDemo/Pods-IPhoneSusBtnDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E2FC9C97BDFDF04325588313 /* Pods-IPhoneSusBtnDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IPhoneSusBtnDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IPhoneSusBtnDemoUITests/Pods-IPhoneSusBtnDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09A5134E235D870100DFF908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0926382A235FEAA9000E1AE9 /* libPods-IPhoneSusBtnDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A51366235D870200DFF908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FAE881DA4E731A23FABC732 /* libPods-IPhoneSusBtnDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A51371235D870200DFF908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833E929B4372BC7CC6EA8F04 /* libPods-IPhoneSusBtnDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0907AD07235ECE1B00072E48 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				09B37BF0236FC314009022EA /* Config.h */,
+				09B37BF1236FC32C009022EA /* RequestUrlString.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		0907AD08235ECE2600072E48 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD1C235EDF8600072E48 /* WeatherData.h */,
+				0907AD1D235EDF8600072E48 /* WeatherData.m */,
+				0926382B23604291000E1AE9 /* ExpressData.h */,
+				0926382C23604291000E1AE9 /* ExpressData.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0907AD09235ECE2E00072E48 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD16235EDE5F00072E48 /* cell */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		0907AD0A235ECE3200072E48 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				0998DD4F2361AED500C0412B /* 其他 */,
+				0907AD0F235ECE7300072E48 /* 高德地图定位 */,
+				0907AD0E235ECE6D00072E48 /* 扫一扫 */,
+				0907AD0D235ECE6700072E48 /* 查快递 */,
+				0907AD0C235ECE6000072E48 /* 查天气 */,
+				0907AD0B235ECE5200072E48 /* 主界面 */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		0907AD0B235ECE5200072E48 /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				09A5138E235D96D700DFF908 /* ViewController.h */,
+				09A5138F235D96D700DFF908 /* ViewController.m */,
+				09A51390235D96D700DFF908 /* ViewController.xib */,
+			);
+			path = "主界面";
+			sourceTree = "<group>";
+		};
+		0907AD0C235ECE6000072E48 /* 查天气 */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD11235EDA9F00072E48 /* WeatherViewController.h */,
+				0907AD12235EDA9F00072E48 /* WeatherViewController.m */,
+				0907AD13235EDA9F00072E48 /* WeatherViewController.xib */,
+			);
+			path = "查天气";
+			sourceTree = "<group>";
+		};
+		0907AD0D235ECE6700072E48 /* 查快递 */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD1F235F0C0000072E48 /* ExpressViewController.h */,
+				0907AD20235F0C0000072E48 /* ExpressViewController.m */,
+				0907AD21235F0C0000072E48 /* ExpressViewController.xib */,
+			);
+			path = "查快递";
+			sourceTree = "<group>";
+		};
+		0907AD0E235ECE6D00072E48 /* 扫一扫 */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD24235F0C1100072E48 /* ScanViewController.h */,
+				0907AD25235F0C1100072E48 /* ScanViewController.m */,
+			);
+			path = "扫一扫";
+			sourceTree = "<group>";
+		};
+		0907AD0F235ECE7300072E48 /* 高德地图定位 */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD29235F0C1E00072E48 /* LocateViewController.h */,
+				0907AD2A235F0C1E00072E48 /* LocateViewController.m */,
+			);
+			path = "高德地图定位";
+			sourceTree = "<group>";
+		};
+		0907AD10235ECEB200072E48 /* SuspensionButton */ = {
+			isa = PBXGroup;
+			children = (
+				09A51386235D8D1400DFF908 /* ButtonMenu.h */,
+				09A51387235D8D1400DFF908 /* ButtonMenu.m */,
+			);
+			path = SuspensionButton;
+			sourceTree = "<group>";
+		};
+		0907AD16235EDE5F00072E48 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD17235EDE8B00072E48 /* FutureWeatherTableViewCell.h */,
+				0907AD18235EDE8B00072E48 /* FutureWeatherTableViewCell.m */,
+				0907AD19235EDE8B00072E48 /* FutureWeatherTableViewCell.xib */,
+				0926382E23604503000E1AE9 /* ExpressTableViewCell.h */,
+				0926382F23604503000E1AE9 /* ExpressTableViewCell.m */,
+				0926383023604503000E1AE9 /* ExpressTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		0998DD4F2361AED500C0412B /* 其他 */ = {
+			isa = PBXGroup;
+			children = (
+				0998DD502361AEEA00C0412B /* OtherViewController.h */,
+				0998DD512361AEEA00C0412B /* OtherViewController.m */,
+				0998DD522361AEEA00C0412B /* OtherViewController.xib */,
+			);
+			path = "其他";
+			sourceTree = "<group>";
+		};
+		09A51348235D870100DFF908 = {
+			isa = PBXGroup;
+			children = (
+				09A51353235D870100DFF908 /* IPhoneSusBtnDemo */,
+				09A5136C235D870200DFF908 /* IPhoneSusBtnDemoTests */,
+				09A51377235D870200DFF908 /* IPhoneSusBtnDemoUITests */,
+				09A51352235D870100DFF908 /* Products */,
+				994AE76D7EECB55EBA493F65 /* Pods */,
+				385619E670DF4521CAF7A7B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		09A51352235D870100DFF908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09A51351235D870100DFF908 /* IPhoneSusBtnDemo.app */,
+				09A51369235D870200DFF908 /* IPhoneSusBtnDemoTests.xctest */,
+				09A51374235D870200DFF908 /* IPhoneSusBtnDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09A51353235D870100DFF908 /* IPhoneSusBtnDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0907AD10235ECEB200072E48 /* SuspensionButton */,
+				0907AD0A235ECE3200072E48 /* controller */,
+				0907AD09235ECE2E00072E48 /* view */,
+				0907AD08235ECE2600072E48 /* model */,
+				0907AD07235ECE1B00072E48 /* base */,
+				09A51354235D870100DFF908 /* AppDelegate.h */,
+				09A51355235D870100DFF908 /* AppDelegate.m */,
+				09A5135D235D870200DFF908 /* Assets.xcassets */,
+				09A5135F235D870200DFF908 /* LaunchScreen.storyboard */,
+				09A51362235D870200DFF908 /* Info.plist */,
+				09A51363235D870200DFF908 /* main.m */,
+			);
+			path = IPhoneSusBtnDemo;
+			sourceTree = "<group>";
+		};
+		09A5136C235D870200DFF908 /* IPhoneSusBtnDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				09A5136D235D870200DFF908 /* IPhoneSusBtnDemoTests.m */,
+				09A5136F235D870200DFF908 /* Info.plist */,
+			);
+			path = IPhoneSusBtnDemoTests;
+			sourceTree = "<group>";
+		};
+		09A51377235D870200DFF908 /* IPhoneSusBtnDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09A51378235D870300DFF908 /* IPhoneSusBtnDemoUITests.m */,
+				09A5137A235D870300DFF908 /* Info.plist */,
+			);
+			path = IPhoneSusBtnDemoUITests;
+			sourceTree = "<group>";
+		};
+		385619E670DF4521CAF7A7B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09263829235FEAA9000E1AE9 /* libPods-IPhoneSusBtnDemo.a */,
+				3D2A10C1706A41371BFA3DCE /* libPods-IPhoneSusBtnDemo.a */,
+				C175EC919F9E4AFE6BE27CD9 /* libPods-IPhoneSusBtnDemoTests.a */,
+				1187DDB2A0FC9824CBBF1E29 /* libPods-IPhoneSusBtnDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994AE76D7EECB55EBA493F65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEC76AEC55CF382E192AFD9C /* Pods-IPhoneSusBtnDemo.debug.xcconfig */,
+				1AFF2A5F7328A3A0653DE9DF /* Pods-IPhoneSusBtnDemo.release.xcconfig */,
+				9AB027C43807122E0D97FA2E /* Pods-IPhoneSusBtnDemoTests.debug.xcconfig */,
+				8780A81EBBBD25C7A04AF010 /* Pods-IPhoneSusBtnDemoTests.release.xcconfig */,
+				E2FC9C97BDFDF04325588313 /* Pods-IPhoneSusBtnDemoUITests.debug.xcconfig */,
+				87C6F9FC00C6DF20C867D27B /* Pods-IPhoneSusBtnDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09A51350235D870100DFF908 /* IPhoneSusBtnDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A5137D235D870300DFF908 /* Build configuration list for PBXNativeTarget "IPhoneSusBtnDemo" */;
+			buildPhases = (
+				C75B9B3B555CD050FDBC0D0E /* [CP] Check Pods Manifest.lock */,
+				09A5134D235D870100DFF908 /* Sources */,
+				09A5134E235D870100DFF908 /* Frameworks */,
+				09A5134F235D870100DFF908 /* Resources */,
+				0034F48FC7D1D5B04BA19664 /* [CP] Embed Pods Frameworks */,
+				7BD422566FF8C90C2967DC03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPhoneSusBtnDemo;
+			productName = IPhoneSusBtnDemo;
+			productReference = 09A51351235D870100DFF908 /* IPhoneSusBtnDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09A51368235D870200DFF908 /* IPhoneSusBtnDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A51380235D870300DFF908 /* Build configuration list for PBXNativeTarget "IPhoneSusBtnDemoTests" */;
+			buildPhases = (
+				BC858EA3D2F819DCE86845EE /* [CP] Check Pods Manifest.lock */,
+				09A51365235D870200DFF908 /* Sources */,
+				09A51366235D870200DFF908 /* Frameworks */,
+				09A51367235D870200DFF908 /* Resources */,
+				F18315BCE7FA99BEA303F94E /* [CP] Embed Pods Frameworks */,
+				79A66067EA90F3EEA639EBF9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A5136B235D870200DFF908 /* PBXTargetDependency */,
+			);
+			name = IPhoneSusBtnDemoTests;
+			productName = IPhoneSusBtnDemoTests;
+			productReference = 09A51369235D870200DFF908 /* IPhoneSusBtnDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09A51373235D870200DFF908 /* IPhoneSusBtnDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A51383235D870300DFF908 /* Build configuration list for PBXNativeTarget "IPhoneSusBtnDemoUITests" */;
+			buildPhases = (
+				733B5BD9C1B6CDAF65DB5471 /* [CP] Check Pods Manifest.lock */,
+				09A51370235D870200DFF908 /* Sources */,
+				09A51371235D870200DFF908 /* Frameworks */,
+				09A51372235D870200DFF908 /* Resources */,
+				249F89F4B55D815B2B1712C1 /* [CP] Embed Pods Frameworks */,
+				1CCA4DE974183603A976444A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09A51376235D870200DFF908 /* PBXTargetDependency */,
+			);
+			name = IPhoneSusBtnDemoUITests;
+			productName = IPhoneSusBtnDemoUITests;
+			productReference = 09A51374235D870200DFF908 /* IPhoneSusBtnDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09A51349235D870100DFF908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yjm;
+				TargetAttributes = {
+					09A51350235D870100DFF908 = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					09A51368235D870200DFF908 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 09A51350235D870100DFF908;
+					};
+					09A51373235D870200DFF908 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 09A51350235D870100DFF908;
+					};
+				};
+			};
+			buildConfigurationList = 09A5134C235D870100DFF908 /* Build configuration list for PBXProject "IPhoneSusBtnDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09A51348235D870100DFF908;
+			productRefGroup = 09A51352235D870100DFF908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09A51350235D870100DFF908 /* IPhoneSusBtnDemo */,
+				09A51368235D870200DFF908 /* IPhoneSusBtnDemoTests */,
+				09A51373235D870200DFF908 /* IPhoneSusBtnDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09A5134F235D870100DFF908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A51361235D870200DFF908 /* LaunchScreen.storyboard in Resources */,
+				0998DD542361AEEA00C0412B /* OtherViewController.xib in Resources */,
+				0907AD15235EDA9F00072E48 /* WeatherViewController.xib in Resources */,
+				0907AD1B235EDE8B00072E48 /* FutureWeatherTableViewCell.xib in Resources */,
+				0907AD23235F0C0000072E48 /* ExpressViewController.xib in Resources */,
+				0926383223604503000E1AE9 /* ExpressTableViewCell.xib in Resources */,
+				09A51392235D96D700DFF908 /* ViewController.xib in Resources */,
+				09A5135E235D870200DFF908 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A51367235D870200DFF908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A51372235D870200DFF908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0034F48FC7D1D5B04BA19664 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemo/Pods-IPhoneSusBtnDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CCA4DE974183603A976444A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemoUITests/Pods-IPhoneSusBtnDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		249F89F4B55D815B2B1712C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemoUITests/Pods-IPhoneSusBtnDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733B5BD9C1B6CDAF65DB5471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPhoneSusBtnDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A66067EA90F3EEA639EBF9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemoTests/Pods-IPhoneSusBtnDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BD422566FF8C90C2967DC03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemo/Pods-IPhoneSusBtnDemo-resources.sh",
+				"${PODS_ROOT}/AMap2DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemo/Pods-IPhoneSusBtnDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC858EA3D2F819DCE86845EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPhoneSusBtnDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C75B9B3B555CD050FDBC0D0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IPhoneSusBtnDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18315BCE7FA99BEA303F94E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IPhoneSusBtnDemoTests/Pods-IPhoneSusBtnDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09A5134D235D870100DFF908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A51388235D8D1400DFF908 /* ButtonMenu.m in Sources */,
+				0907AD27235F0C1100072E48 /* ScanViewController.m in Sources */,
+				0907AD2C235F0C1E00072E48 /* LocateViewController.m in Sources */,
+				09A51364235D870200DFF908 /* main.m in Sources */,
+				09A51391235D96D700DFF908 /* ViewController.m in Sources */,
+				0907AD22235F0C0000072E48 /* ExpressViewController.m in Sources */,
+				0998DD532361AEEA00C0412B /* OtherViewController.m in Sources */,
+				0926383123604503000E1AE9 /* ExpressTableViewCell.m in Sources */,
+				0907AD14235EDA9F00072E48 /* WeatherViewController.m in Sources */,
+				09A51356235D870100DFF908 /* AppDelegate.m in Sources */,
+				0926382D23604291000E1AE9 /* ExpressData.m in Sources */,
+				0907AD1E235EDF8600072E48 /* WeatherData.m in Sources */,
+				0907AD1A235EDE8B00072E48 /* FutureWeatherTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A51365235D870200DFF908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A5136E235D870200DFF908 /* IPhoneSusBtnDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09A51370235D870200DFF908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A51379235D870300DFF908 /* IPhoneSusBtnDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09A5136B235D870200DFF908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A51350235D870100DFF908 /* IPhoneSusBtnDemo */;
+			targetProxy = 09A5136A235D870200DFF908 /* PBXContainerItemProxy */;
+		};
+		09A51376235D870200DFF908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09A51350235D870100DFF908 /* IPhoneSusBtnDemo */;
+			targetProxy = 09A51375235D870200DFF908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09A5135F235D870200DFF908 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A51360235D870200DFF908 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09A5137B235D870300DFF908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09A5137C235D870300DFF908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09A5137E235D870300DFF908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC76AEC55CF382E192AFD9C /* Pods-IPhoneSusBtnDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L85Y5QNYJP;
+				INFOPLIST_FILE = IPhoneSusBtnDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yjm.IPhoneSusBtnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09A5137F235D870300DFF908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFF2A5F7328A3A0653DE9DF /* Pods-IPhoneSusBtnDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L85Y5QNYJP;
+				INFOPLIST_FILE = IPhoneSusBtnDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yjm.IPhoneSusBtnDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		09A51381235D870300DFF908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB027C43807122E0D97FA2E /* Pods-IPhoneSusBtnDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L85Y5QNYJP;
+				INFOPLIST_FILE = IPhoneSusBtnDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yjm.IPhoneSusBtnDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPhoneSusBtnDemo.app/IPhoneSusBtnDemo";
+			};
+			name = Debug;
+		};
+		09A51382235D870300DFF908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8780A81EBBBD25C7A04AF010 /* Pods-IPhoneSusBtnDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L85Y5QNYJP;
+				INFOPLIST_FILE = IPhoneSusBtnDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yjm.IPhoneSusBtnDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IPhoneSusBtnDemo.app/IPhoneSusBtnDemo";
+			};
+			name = Release;
+		};
+		09A51384235D870300DFF908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FC9C97BDFDF04325588313 /* Pods-IPhoneSusBtnDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L85Y5QNYJP;
+				INFOPLIST_FILE = IPhoneSusBtnDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yjm.IPhoneSusBtnDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IPhoneSusBtnDemo;
+			};
+			name = Debug;
+		};
+		09A51385235D870300DFF908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87C6F9FC00C6DF20C867D27B /* Pods-IPhoneSusBtnDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L85Y5QNYJP;
+				INFOPLIST_FILE = IPhoneSusBtnDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yjm.IPhoneSusBtnDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IPhoneSusBtnDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A5134C235D870100DFF908 /* Build configuration list for PBXProject "IPhoneSusBtnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A5137B235D870300DFF908 /* Debug */,
+				09A5137C235D870300DFF908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A5137D235D870300DFF908 /* Build configuration list for PBXNativeTarget "IPhoneSusBtnDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A5137E235D870300DFF908 /* Debug */,
+				09A5137F235D870300DFF908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A51380235D870300DFF908 /* Build configuration list for PBXNativeTarget "IPhoneSusBtnDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A51381235D870300DFF908 /* Debug */,
+				09A51382235D870300DFF908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09A51383235D870300DFF908 /* Build configuration list for PBXNativeTarget "IPhoneSusBtnDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A51384235D870300DFF908 /* Debug */,
+				09A51385235D870300DFF908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09A51349235D870100DFF908 /* Project object */;
+}

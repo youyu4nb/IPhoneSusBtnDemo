@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="KGk-i7-Jjw" customClass="FutureWeatherTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="501" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="501" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMm-xt-Uc7">
+                        <rect key="frame" x="10" y="8.5" width="113" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsFontSizeToFitWidth" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLm-gL-cvn">
+                        <rect key="frame" x="255.5" y="14.5" width="113" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsFontSizeToFitWidth" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kT-yz-oQy">
+                        <rect key="frame" x="378.5" y="14.5" width="112.5" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsFontSizeToFitWidth" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v4V-tl-eDm">
+                        <rect key="frame" x="133" y="11.5" width="112.5" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsFontSizeToFitWidth" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wMm-xt-Uc7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="7fj-tQ-iQg"/>
+                    <constraint firstItem="v4V-tl-eDm" firstAttribute="height" secondItem="wMm-xt-Uc7" secondAttribute="height" id="Ad8-NH-NTV"/>
+                    <constraint firstItem="v4V-tl-eDm" firstAttribute="top" secondItem="wMm-xt-Uc7" secondAttribute="top" constant="3" id="aYe-zC-hwZ"/>
+                    <constraint firstItem="wMm-xt-Uc7" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.25" constant="-12.5" id="bnC-UG-240"/>
+                    <constraint firstItem="8kT-yz-oQy" firstAttribute="top" secondItem="kLm-gL-cvn" secondAttribute="top" id="eCn-4t-HF0"/>
+                    <constraint firstItem="wMm-xt-Uc7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="eG3-Uc-URo"/>
+                    <constraint firstItem="wMm-xt-Uc7" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="fhl-lC-VRo"/>
+                    <constraint firstItem="kLm-gL-cvn" firstAttribute="width" secondItem="v4V-tl-eDm" secondAttribute="width" id="k9F-p5-VYT"/>
+                    <constraint firstItem="kLm-gL-cvn" firstAttribute="top" secondItem="v4V-tl-eDm" secondAttribute="top" constant="3" id="kdv-b4-nhG"/>
+                    <constraint firstItem="8kT-yz-oQy" firstAttribute="leading" secondItem="kLm-gL-cvn" secondAttribute="trailing" constant="10" id="n6H-TG-h0z"/>
+                    <constraint firstItem="v4V-tl-eDm" firstAttribute="leading" secondItem="wMm-xt-Uc7" secondAttribute="trailing" constant="10" id="oYe-rw-n9Z"/>
+                    <constraint firstItem="8kT-yz-oQy" firstAttribute="width" secondItem="kLm-gL-cvn" secondAttribute="width" id="olk-fh-bln"/>
+                    <constraint firstItem="kLm-gL-cvn" firstAttribute="leading" secondItem="v4V-tl-eDm" secondAttribute="trailing" constant="10" id="u48-mb-Tvu"/>
+                    <constraint firstItem="8kT-yz-oQy" firstAttribute="height" secondItem="kLm-gL-cvn" secondAttribute="height" id="ufU-hB-3Sb"/>
+                    <constraint firstItem="kLm-gL-cvn" firstAttribute="height" secondItem="v4V-tl-eDm" secondAttribute="height" id="vSb-NV-wn0"/>
+                    <constraint firstItem="v4V-tl-eDm" firstAttribute="width" secondItem="wMm-xt-Uc7" secondAttribute="width" id="whl-zK-Kr4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="date" destination="wMm-xt-Uc7" id="PYb-Gn-mU9"/>
+                <outlet property="direct" destination="8kT-yz-oQy" id="wkD-fU-mtv"/>
+                <outlet property="temperature" destination="v4V-tl-eDm" id="Pcy-Mp-6mx"/>
+                <outlet property="weather" destination="kLm-gL-cvn" id="9cG-z6-GTr"/>
+            </connections>
+            <point key="canvasLocation" x="116.66666666666667" y="86.71875"/>
+        </tableViewCell>
+    </objects>
+</document>
