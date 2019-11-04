@@ -1,3 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.makefile linguist-language=Objetice-C 
+*.Makefile linguist-language=Objetice-C 
